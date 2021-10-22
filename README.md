@@ -9,4 +9,3 @@ Solução para o desafio Order Summary do Frontend Mentor.
 * HTML5
 * CSS custom properties
 * Flexbox
-* CSS Grid
