@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Red Hat Display', sans-serif;
+
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  width: 450px;
+  height: 720px;
+
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.top-img {
+  width: 450px;
+  border-radius: 15px 15px 0 0;
+}
+
+.card__text {
+  text-align: center;
+}
+
+.card__text h1 {
+  font-weight: 900;
+  margin-top: 8px;
+  color: hsl(223, 47%, 23%);
+}
+
+.card__text p {
+  padding: 10px 48px;
+  width: 348px;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card__plan {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+
+  width: 300px;
+  height: 48px;
+  margin: 0 46px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 24px;
+}
+
+.card__plan h3 {
+  color: hsl(223, 47%, 23%);
+}
+
+#change-plan {
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+#change-plan:hover {
+  opacity: 70%;
+}
+
+.card__button {
+  width: 348px;
+  height: 56px;
+
+  margin-left: 48px;
+
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: hsl(245, 75%, 52%);
+}
+
+.card__button:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+#cancel {
+  margin-bottom: 48px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+
+#cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
